@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dicom File Viewer</string>
+    <string name="choose_file">Choose DICOM Image</string>
+    <string name="dicom">TODO</string>
+    <string name="text_1">Tag ID</string>
+    <string name="text_2">Attribute Name</string>
+    <string name="text_3">Description</string>
+    <string name="image">TODO</string>
+</resources>

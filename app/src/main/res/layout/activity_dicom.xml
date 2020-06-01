@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dicom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tagID1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:text="@string/text_1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tagName1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:text="@string/text_2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Description1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:text="@string/text_3"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tagID"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:text="@string/text_1"
+            android:textAlignment="textStart"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tagName"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textAlignment="textStart"
+            android:text="@string/text_2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textAlignment="textStart"
+            android:text="@string/text_3"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
