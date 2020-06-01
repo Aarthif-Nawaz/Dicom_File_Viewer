@@ -153,7 +153,7 @@ public class list_view extends AppCompatActivity {
             imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
 
             // Update the text with the patient name
-        } catch (IOException e) {
+        } catch (Exception e) {
             AlertDialog.Builder dlgAlert = new AlertDialog.Builder(this);
             dlgAlert.setMessage("This DICOM Image doesnt have a Proper Frame Size in order to Visualize ");
             dlgAlert.setTitle("Error");
